@@ -7,6 +7,15 @@ public class git {
         // git add . komutu projemizi veya clasımızı geçici alana gönderir
         // git add . komutundan kullanmadan önce clas isimimiz kırmızı renkte gösterir gönderdikten sonra yeşile döner
         // git commit -m"v1" komutu ile geçici alandan repositorye göndeririz.
+        // cls komutu ile terminalı temizleyebiliriz .
+        // git log --oneline komutu ile versiyonu görüntüyebliriz
+        // git show komutu ile versiyon bilgilerini görüntüliyebiliriz.
+        // git te ana komutlar git init ,git add . , git commit - m"versiyon metni"
+        //yardımcı komutlar  git status ,git show ,git log
+
+
+
+
         int a=8;
         int b=5;
         int d=3;
@@ -14,6 +23,11 @@ public class git {
         System.out.println("versiyon oluşturuldu");
         System.out.println(a*b);
         System.out.println("versiyon 2 oluşturuldu ");
+        // version 3
+
+        // git restore -- staged komutu ile gecici bölgeye gönderdiğimiz versiyonu geri alır
+        System.out.println(a/b);
+
 
     }
 }
